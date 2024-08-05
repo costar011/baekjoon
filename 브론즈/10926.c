@@ -30,9 +30,7 @@ baekjoon??!
 
 int main() {
     char username[50];
-
-    scanf("%s", &username);
-    printf("%s??!", &username);
-
+    scanf("%s", username);
+    printf("%s??!\n", username);
     return 0;
 }
